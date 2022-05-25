@@ -1,0 +1,13 @@
+Class Projectile:
+  
+	def init(self, pos):
+		self.projectile = Entity(model = 'sphere', color = color.orange, scale = 1, position = pos
+		fire()
+		
+	def fire(self):
+		self.projectile.look_at(player)
+		self.projectile.speed = 30
+		if(self.projectile.distance(player) < .5)
+			#player.setHealth(player.health - 5)
+			destroy(self.projectile)
+		destroy(self.projectile, delay = 3)
