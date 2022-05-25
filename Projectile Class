@@ -1,4 +1,4 @@
-Class Projectile:
+class Projectile:
   
 	def init(self, pos):
 		self.projectile = Entity(model = 'sphere', color = color.orange, scale = 1, position = pos
